@@ -1,4 +1,4 @@
-<a name="_top"/>
+<a name="thetop"/>
 
 ![gridion](pictures/gridionx5.png)
 # GridION_yeast_cDNA-seq
@@ -29,7 +29,7 @@ The PCR primers included in all TeloPrime Kits V2 (Cat. No. 013, 018) have the f
 An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit anfd 50fmol of resulting library was loaded on a ONT **FloMin106** flow-cell.
 
 <a name="long_read_sequencing"/>
-[top](#_top)
+[top](#thetop)
 
 # Long read sequencing
 
@@ -67,6 +67,6 @@ In order to obtain highest possible base call qualities, the raw *fast5_pass* da
 In agreement with the name, the hac mode generates significantly better average read quality scores (but looses some reads in the process. The final amount of read data of **7.3 Gb in 3.8 M reads** is however very honest considering that the flow cell was used twice.
 
 <a name="pinfish_analysis"/>
-[top](#_top)
+[top](#thetop)
 
 # Pinfish analysis
