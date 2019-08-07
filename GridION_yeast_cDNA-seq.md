@@ -1,4 +1,4 @@
-![gridion](pictures/gridionx5.png)
+![gridion](pictures/gridionx5.png | width=50)
 # GridION_yeast_cDNA-seq
 
 Produce full-length cDNA reads from a common yeast (S288c) sample and sequence them using a GridION flow-cell. Perform standard QC on the obtained reads and use them to perform a transcriptome analysis using popular tools. This work aims at evaluating wether ONT transcriptome data is sufficient (quantity and quality) to perform transcript analysis and potentially differential expression analysis.
