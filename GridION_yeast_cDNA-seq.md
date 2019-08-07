@@ -36,7 +36,7 @@ An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb f
 
 This transcriptome experiment was run on a single GridION flow-cell and the GridION X5 device in order to produce sufficient amounts of data for a comprehensive analysis of gene expression from our yeast sample.
 
-**Note** the flow-cell had already been used for a separate experiment, this explains why we start with a number of inactive pores as seen from the report below).
+**Note** the flow-cell had already been used for a separate experiment, this explains why we start with a number of inactive pores as seen from the run report below.
 
 ## GridION run & QC
 
