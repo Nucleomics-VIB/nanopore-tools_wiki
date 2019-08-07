@@ -1,12 +1,12 @@
 ![gridion](pictures/gridionx5.png)
-# GridION_yeast_cDNA-seq
+# GridION yeast cDNA-seq
 
 Produce full-length cDNA reads from a common yeast (S288c) sample and sequence them using a GridION flow-cell. Perform standard QC on the obtained reads and use them to perform a transcriptome analysis using popular tools. This work aims at evaluating wether ONT transcriptome data is sufficient (quantity and quality) to perform transcript analysis and potentially differential expression analysis.
 
 **Content:** 
-* [sample_and_library](#sample_and_library)  
-* [long_read_sequencing](#long_read_sequencing)
-* [pinfish_analysis](#pinfish_analysis)
+* [Sample and Library](#sample_and_library)  
+* [Long-read Sequencing](#long_read_sequencing)
+* [Pinfish analysis](#pinfish_analysis)
 
 <hr>
  
@@ -26,7 +26,7 @@ The PCR primers included in all TeloPrime Kits V2 (Cat. No. 013, 018) have the f
 * FP: 5’ – TGGATTGATATGTAATACGACTCACTATAG – 3‘
 * RP: 5’ – TCTCAGGCGTTTTTTTTTTTTTTTTTT – 3‘
 
-An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit anfd 50fmol of resulting library was loaded on a ONT **FloMin106** flow-cell.
+An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit and 50fmol of resulting library was loaded on a freshly flushed ONT **FloMin106** flow-cell.
 
 <a name="long_read_sequencing"/>
 
@@ -36,12 +36,12 @@ An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb f
 
 This transcriptome experiment was run on a single GridION flow-cell and the GridION X5 device in order to produce sufficient amounts of data for a comprehensive analysis of gene expression from our yeast sample.
 
+**Note** the flow-cell had already been used for a separate experiment, this explains why we start with a number of inactive pores as seen from the run report below.
+
 ## GridION run & QC
 
 The flow-cell was run and basecalled using the rapid Guppy mode due to an issue with the hac mode in real-time basecalling
-The run was terminated after ~42h as it did not produce significant data anymore and the final [run-QC report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/ONT_Run-report.pdf) is attached and shows a good overall quality and decent quantity in specs with a succesful cDNA sequencing run. 
-
-**Note** that this run was done using a flow-cell already used for a separate experiment, this explains why we start with a number of inactive pores as seen from the report).
+The run was terminated after ~42h as it did not produce significant data anymore and the final [run-QC report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/ONT_Run-report.pdf) is attached and shows a good overall quality and decent quantity in specs with a succesful cDNA sequencing run on a reused flow-cell. 
 
 The ONT Data-QC pipeline (derived from: https://github.com/nanoporetech/ont_tutorial_basicqc) was applied to the obtained *sequencing_summary.txt*, leading to the following **<a href="http://htmlpreview.github.com/?https://github.com/Nucleomics-VIB/nanopore-tools_wiki/blob/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">rapid_report</a>**
 
