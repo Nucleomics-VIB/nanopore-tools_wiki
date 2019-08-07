@@ -65,10 +65,10 @@ In order to obtain highest possible base call qualities, the raw *fast5_pass* da
 
 In agreement with the name, the hac mode generates significantly better average read quality scores (but looses some reads in the process. The final amount of read data of **7.3 Gb in 3.8 M reads** is however very honest considering that the flow cell was used twice.
 
-
-
 *[[back-to-top](#top)]*  
+
+<a name="pinfish_analysis"/>
 
 # Pinfish analysis
 
-<a name="pinfish_analysis"/>
+
