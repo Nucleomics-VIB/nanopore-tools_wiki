@@ -3,7 +3,12 @@
 
 Produce full-length cDNA reads from a common yeast (S288c) sample and sequence them using a GridION flow-cell. Perform standard QC on the obtained reads and use them to perform a transcriptome analysis using popular tools. This work aims at evaluating wether ONT transcriptome data is sufficient (quantity and quality) to perform transcript analysis and potentially differential expression analysis.
 
+**Content:**
+[sample_and_library](#sample_and_library)  
+[long_read_sequencing](#long_read_sequencing)
+
 # Sample and library
+<a name="sample_and_library"/>
 
 ## Sample prep & RNA QC
 
@@ -20,6 +25,7 @@ The PCR primers included in all TeloPrime Kits V2 (Cat. No. 013, 018) have the f
 An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit anfd 50fmol of resulting library was loaded on a ONT **FloMin106** flow-cell.
 
 # Long read sequencing
+<a name="long_read_sequencing"/>
 
 This transcriptome experiment was run on a single GridION flow-cell and the GridION X5 device in order to produce sufficient amounts of data for a comprehensive analysis of gene expression from our yeast sample.
 
