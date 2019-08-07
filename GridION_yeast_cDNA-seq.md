@@ -3,25 +3,19 @@
 
 Produce full-length cDNA reads from a common yeast (S288c) sample and sequence them using a GridION flow-cell. Perform standard QC on the obtained reads and use them to perform a transcriptome analysis using popular tools. This work aims at evaluating wether ONT transcriptome data is sufficient (quantity and quality) to perform transcript analysis and potentially differential expression analysis.
 
-![Saccer](pictures/Saccer.png)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
-    <th class="tg-cly1">a</th>
-    <th class="tg-cly1">b</th>
+    <th class="tg-cly1">![Saccer](pictures/Saccer.png)</th>
+    <th class="tg-cly1">**Content:**
+* [sample_and_library](#sample_and_library)  
+* [long_read_sequencing](#long_read_sequencing)
+* [pinfish_analysis](#pinfish_analysis)</th>
   </tr>
 </table>
 
-**Content:**
-* [sample_and_library](#sample_and_library)  
-* [long_read_sequencing](#long_read_sequencing)
-* [pinfish_analysis](#pinfish_analysis)
+
 
 <a name="sample_and_library"/>
 
