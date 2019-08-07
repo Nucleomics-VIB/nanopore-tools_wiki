@@ -8,8 +8,8 @@ Produce full-length cDNA reads from a common yeast (S288c) sample and sequence t
 * [long_read_sequencing](#long_read_sequencing)
 * [pinfish_analysis](#pinfish_analysis)
 
-![Saccer](pictures/Saccer.png)
-
+<hl>
+ 
 <a name="sample_and_library"/>
 
 # Sample and library
