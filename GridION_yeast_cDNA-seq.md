@@ -32,6 +32,10 @@ The run was terminated after ~42h as it did not produce significant data anymore
 
 The ONT Data-QC pipeline (derived from: https://github.com/nanoporetech/ont_tutorial_basicqc) was applied to the obtained *sequencing_summary.txt*, leading to the following **<a href="http://htmlpreview.github.com/?https://github.com/Nucleomics-VIB/nanopore-tools_wiki/blob/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">rapid_report</a>**
 
+![rapid1](pictures/ExecutiveSummaryValueBoxes_rapid.png)
+
+![rapid2](pictures/ReadCharacteristicsValueBoxes_rapid.png)
+
 ## Basecalling with Guppy 3.0.6 in hac-mode
 
 In order to obtain highest possible base call qualities, the raw *fast5_pass* data was re-analyzed on the GridION X5 platform using Guppy 3.0.6 and the *hac-mode*. The ONT Data-QC pipeline was run on the hac-basecalled data, leading to the final Data-QC **<a href="http://htmlpreview.github.com/?https://github.com/Nucleomics-VIB/nanopore-tools_wiki/blob/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_hac.html" target="_blank">hac_report</a>**. The data analyzed here was used further in this study.
