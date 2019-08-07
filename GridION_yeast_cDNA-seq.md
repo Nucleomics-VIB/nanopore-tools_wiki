@@ -1,5 +1,3 @@
-<a name="thetop"/>
-
 ![gridion](pictures/gridionx5.png)
 # GridION_yeast_cDNA-seq
 
