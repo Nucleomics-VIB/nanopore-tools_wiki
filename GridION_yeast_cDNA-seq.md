@@ -26,7 +26,7 @@ The PCR primers included in all TeloPrime Kits V2 (Cat. No. 013, 018) have the f
 * FP: 5’ – TGGATTGATATGTAATACGACTCACTATAG – 3‘
 * RP: 5’ – TCTCAGGCGTTTTTTTTTTTTTTTTTT – 3‘
 
-An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit anfd 50fmol of resulting library was loaded on a ONT **FloMin106** flow-cell.
+An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit and 50fmol of resulting library was loaded on a freshly flushed ONT **FloMin106** flow-cell.
 
 <a name="long_read_sequencing"/>
 
