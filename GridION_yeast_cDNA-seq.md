@@ -21,14 +21,16 @@ An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb f
 
 # Long read sequencing
 
-This transcriptome experiment was run on a single GridION flow-cell (R9) and the GridION X5 device in order to produce sufficient amounts of data for a comprehensive analysis of gene expression from our yeast sample.
+This transcriptome experiment was run on a single GridION flow-cell and the GridION X5 device in order to produce sufficient amounts of data for a comprehensive analysis of gene expression from our yeast sample.
 
 ## GridION run & QC
 
 The flow-cell was run and basecalled using the rapid Guppy mode due to an issue with the hac mode in real-time basecalling
-The run was terminated after ~42h as it did not produce significant data anymore and the final [run-QC report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/ONT_Run-report.pdf) is attached and shows a good overall quality and decent quantity in specs with a succesful cDNA sequencing run.
+The run was terminated after ~42h as it did not produce significant data anymore and the final [run-QC report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/ONT_Run-report.pdf) is attached and shows a good overall quality and decent quantity in specs with a succesful cDNA sequencing run. 
 
-The ONT Data-QC pipeline () was applied to the obtained *sequencing_summary.txt*, leading to the following **<a href="http://htmlpreview.github.com/?https://github.com/Nucleomics-VIB/nanopore-tools_wiki/blob/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">rapid_report</a>**
+**Note** that this run was done using a flow-cell already used for a separate experiment, this explains why we start with a number of inactive pores as seen from the report).
+
+The ONT Data-QC pipeline (derived from: https://github.com/nanoporetech/ont_tutorial_basicqc) was applied to the obtained *sequencing_summary.txt*, leading to the following **<a href="http://htmlpreview.github.com/?https://github.com/Nucleomics-VIB/nanopore-tools_wiki/blob/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">rapid_report</a>**
 
 ## Basecalling with Guppy 3.0.6 in hac-mode
 
