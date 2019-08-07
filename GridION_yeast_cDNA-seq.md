@@ -29,7 +29,7 @@ The flow-cell was run and basecalled using the rapid Guppy mode due to an issue 
 The run was terminated after ~42h as it did not produce significant data anymore and the final [run-QC report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/ONT_Run-report.pdf) is attached and shows a good overall quality and decent quantity in specs with a succesful cDNA sequencing run.
 
 The ONT Data-QC pipeline () was applied to the obtained *sequencing_summary.txt*, leading to the following [rapid_report](https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html).
-<a href="https://github.com/Nucleomics-VIB/nanopore-tools_wiki/raw/master/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">test</a>
+<a href="https://github.com/Nucleomics-VIB/nanopore-tools_wiki/GridION_yeast_cDNA-seq/Nanopore_SumStatQC_rapid.html" target="_blank">test</a>
 
 ## Basecalling with Guppy 3.0.6 in hac-mode
 
