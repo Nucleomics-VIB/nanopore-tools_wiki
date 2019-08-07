@@ -52,4 +52,6 @@ In order to obtain highest possible base call qualities, the raw *fast5_pass* da
 
 ![hac4](pictures/read_qualities_hac.png)
 
+In agreement with the name, the hac mode generates significantly better average read quality scores (but looses some reads in the process. The final amount of read data of 7.3 Gb is however very reasonable.
+
 # Pinfish analysis
