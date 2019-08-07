@@ -1,7 +1,14 @@
-![gridion](pictures/gridionx5.png)
+![gridion](pictures/gridionx5.png)![Saccer](pictures/Saccer.jpg)
 # GridION_yeast_cDNA-seq
 
 Produce full-length cDNA reads from a common yeast (S288c) sample and sequence them using a GridION flow-cell. Perform standard QC on the obtained reads and use them to perform a transcriptome analysis using popular tools. This work aims at evaluating wether ONT transcriptome data is sufficient (quantity and quality) to perform transcript analysis and potentially differential expression analysis.
+
+**Content:**
+* [sample_and_library](#sample_and_library)  
+* [long_read_sequencing](#long_read_sequencing)
+* [pinfish_analysis](#pinfish_analysis)
+
+<a name="sample_and_library"/>
 
 # Sample and library
 
@@ -18,6 +25,10 @@ The PCR primers included in all TeloPrime Kits V2 (Cat. No. 013, 018) have the f
 * RP: 5’ – TCTCAGGCGTTTTTTTTTTTTTTTTTT – 3‘
 
 An estimated amount of 200fmol of the final amplified cDNA (average size 1.5kb from BioAnalyzer) sample was used as input with the ONT **SQK-LSK109** kit anfd 50fmol of resulting library was loaded on a ONT **FloMin106** flow-cell.
+
+<a name="long_read_sequencing"/>
+
+*[[back-to-top](#top)]*  
 
 # Long read sequencing
 
@@ -54,4 +65,10 @@ In order to obtain highest possible base call qualities, the raw *fast5_pass* da
 
 In agreement with the name, the hac mode generates significantly better average read quality scores (but looses some reads in the process. The final amount of read data of **7.3 Gb in 3.8 M reads** is however very honest considering that the flow cell was used twice.
 
+*[[back-to-top](#top)]*  
+
+<a name="pinfish_analysis"/>
+
 # Pinfish analysis
+
+
