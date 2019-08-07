@@ -6,7 +6,7 @@ Produce full-length cDNA reads from a common yeast (S288c) sample and sequence t
 **Content:**
 * [sample_and_library](#sample_and_library)  
 * [long_read_sequencing](#long_read_sequencing)
-* [pinfish_analysis](#pinfish_analysis")
+* [pinfish_analysis](#pinfishanalysis")
 
 <a name="sample_and_library"/>
 
@@ -71,4 +71,4 @@ In agreement with the name, the hac mode generates significantly better average 
 
 # Pinfish analysis
 
-<a name="pinfish_analysis"/>
+<a name="pinfishanalysis"/>
