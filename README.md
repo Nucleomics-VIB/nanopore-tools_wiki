@@ -6,3 +6,4 @@ Please report any inconsistency found in these pages so that we can improve the 
 
 ## Content
 * [GridION_yeast_cDNA-seq](GridION_yeast_cDNA-seq.md)
+* [pinfish_analysis](pinfish_analysis.md)
