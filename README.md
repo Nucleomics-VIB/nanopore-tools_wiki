@@ -5,5 +5,5 @@ This page links to material and results obtained with ONT data.
 Please report any inconsistency found in these pages so that we can improve the content.
 
 ## Content
-* [GridION_yeast_cDNA-seq](GridION_yeast_cDNA-seq.md)
-* [pinfish_analysis](pinfish_analysis.md)
+* [GridION yeast cDNA-seq](GridION_yeast_cDNA-seq.md)
+* [Pinfish analysis](pinfish_analysis.md)
