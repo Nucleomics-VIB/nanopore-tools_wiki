@@ -1,7 +1,7 @@
 ![pinfish](pictures/pinfish.png)
 # Pinfish analysis
 
-Analyse the ONT reads and discover isoforms
+Analyse the yeast ONT long-reads and discover isoforms.
 
 **Content:** 
 * [pinfish workflow](#pinfish_workflow)  
@@ -12,4 +12,5 @@ Analyse the ONT reads and discover isoforms
 
 # Pinfish workflow
 
-The workflow published [here](https://github.com/nanoporetech/pipeline-pinfish-analysis) was edited and used to produce the following results.
+The [original Pinfish workflow](https://github.com/nanoporetech/pipeline-pinfish-analysis) was edited and used to produce the following results. The modified files can be accessed [on our fork](https://github.com/Nucleomics-VIB/ont_tutorial_pinfish).
+
