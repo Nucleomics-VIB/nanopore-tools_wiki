@@ -71,6 +71,6 @@ In agreement with the name, the hac mode generates significantly better average 
 
 <a name="pinfish_analysis"/>
 
-# Pinfish analysis
+Move to [Pinfish analysis](pinfish_analysis.md)
 
 
