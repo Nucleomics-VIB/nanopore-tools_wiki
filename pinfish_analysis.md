@@ -1,4 +1,4 @@
-![gridion](pictures/pinfish.png)
+![pinfish](pictures/pinfish.png)
 # Pinfish analysis
 
 Analyse the ONT reads and discover isoforms
